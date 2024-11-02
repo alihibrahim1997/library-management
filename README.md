@@ -122,8 +122,8 @@ API Endpoints
  Authentication 
 - JWT-based Authentication:
   - Include an `Authorization` header with `Bearer <token>` for endpoints requiring authentication. 
-  - I use  for verify HMAC256  with scecret.                                     
-   key:7cd89a4694a1b7bba3e8dbf9af967f4f172d373b3c5c0a4e1a78f72f263a52366d8c7e8c378804df23d7aa0f914ecef6bb942d7ba9c012f00709baefe0b49f89                      
+  - I use  for verify HMAC256  with scecret                                   
+ key:7cd89a4694a1b7bba3e8dbf9af967f4f172d373b3c5c0a4e1a78f72f263a52366d8c7e8c378804df23d7aa0f914ecef6bb942d7ba9c012f00709baefe0b49f89                      
   - Example header:
     ```
     Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
