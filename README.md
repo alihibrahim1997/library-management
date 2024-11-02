@@ -32,7 +32,7 @@ API Endpoints
 - POST /api/books: Add a new book to the library.
   - Request Body Example:
     ```json
-   {
+    {
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "publicationYear": 1925,
@@ -44,7 +44,7 @@ API Endpoints
     "availableCopies": 5,
     "shelfLocation": "A1",
     "summary": "A novel set in the Jazz Age that tells the story of Jay Gatsby and his unrequited love for Daisy Buchanan.",
-    "keywords": [
+     "keywords": [
         "classic",
         "American",
         "Jazz Age"
