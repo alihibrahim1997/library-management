@@ -13,16 +13,16 @@ How to Run the Application
    - The API will be available at `http://localhost:8080`.
   
 3.Configure the Database:                                                                                                                                              
-    -spring.application.name=library
-    -server.port=8080
-    -spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=library;encrypt=true;trustServerCertificate=true;
-    -spring.datasource.username=root
-    -spring.datasource.password=root
-    -spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver
-    -spring.jpa.hibernate.ddl-auto=update
-    -spring.jpa.show-sql=true
-    -spring.jpa.properties.hibernate.format_sql=true
-    -spring.jpa.database-platform=org.hibernate.dialect.SQLServerDialect
+    -spring.application.name=library         
+    -server.port=8080             
+    -spring.datasource.url=jdbc:sqlserver://localhost:1433;databaseName=library;encrypt=true;trustServerCertificate=true; 
+    -spring.datasource.username=root   
+    -spring.datasource.password=root   
+    -spring.datasource.driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver      
+    -spring.jpa.hibernate.ddl-auto=update   
+    -spring.jpa.show-sql=true      
+    -spring.jpa.properties.hibernate.format_sql=true     
+    -spring.jpa.database-platform=org.hibernate.dialect.SQLServerDialect    
 
 API Endpoints
 
