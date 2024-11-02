@@ -126,7 +126,7 @@ API Endpoints
  key:7cd89a4694a1b7bba3e8dbf9af967f4f172d373b3c5c0a4e1a78f72f263a52366d8c7e8c378804df23d7aa0f914ecef6bb942d7ba9c012f00709baefe0b49f89                      
   - Example header:
     ```
-    Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+    Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ5b3VyX3VzZXJuYW1lX2hlcmUiLCJpYXQiOjE3MzA1NzY3OTB9.GP8UtdvmI-0d8cGkV5ya2b0ZfomlwXo8JBpS5p6pNIs
     ```
   
  Running Tests
